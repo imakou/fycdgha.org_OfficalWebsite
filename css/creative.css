@@ -10762,8 +10762,14 @@ header.masthead h1 {
 }
 
 .fycdLogo {
-  width: 90px;
+  width: 60px;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .fycdLogo {
+    width: 90px;
+  }
 }
 
 .backgroundSection p {

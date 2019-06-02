@@ -4,8 +4,11 @@
 }
 
 .fycdLogo {
-  width: 90px;
+  width: 60px;
   height: auto;
+  @include media-breakpoint-up(md) {
+    width: 90px;
+  }
 }
 
 .backgroundSection {
