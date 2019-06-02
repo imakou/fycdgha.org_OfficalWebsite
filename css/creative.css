@@ -10756,19 +10756,24 @@ header.masthead h1 {
   opacity: 1;
 }
 
-.logoContainer {
-  background-color: #fff;
-  padding: 15px;
-}
-
 .fycdLogo {
   width: 60px;
   height: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .fycdLogo {
     width: 90px;
+  }
+}
+
+.logoContainer {
+  background-color: #fff;
+}
+
+@media (min-width: 576px) {
+  .logoContainer {
+    padding: 15px;
   }
 }
 
